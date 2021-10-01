@@ -1,0 +1,485 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(201, 201, 201);
+}
+
+ul{
+    padding: 0px!important;
+}
+.menu{
+    width: 100%;
+    background-color: rgb(179, 85, 23);
+    height: 60px;
+    border-bottom: 3px solid rgb(155, 72, 17);
+    
+}
+
+    
+main{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.strings ul li{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+}
+.strings ul li a:hover{
+    color:rgb(44, 44, 44);
+}
+.strings ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+.strings{
+    width: 70%;
+    float: left;
+}
+.busca{
+    width: 30%;
+    float: right;
+    text-align: center;
+    
+}
+.busca input{
+    height: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 150px;
+    background-position: 96%;
+    background-image: url('./imgs/img-pes.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.perfil{
+    padding-top: 50px;
+    background-color: rgb(161, 161, 161);
+   width: 980px;
+   height: 300px;
+   top: 20px;
+    position: relative;
+    margin: 0 auto;
+   
+}
+
+.img{
+    padding-left: 100px;
+    width: 30%;
+    float: left;  
+}
+.nome{
+    font-size: 10px;
+    float: center;
+    width: 100%;
+    
+}
+p{
+    font-size: 15px;
+}
+.redes{
+    padding-top: 25px;
+}
+
+.Vendas{
+    padding-top: 50px;
+    width: 90%;
+    height: 300px;
+    top: 20px;
+    margin: 0 auto;
+    position: relative;
+    clear:both;
+}
+.carros ul li{
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    padding-left: 50px;
+}
+.socias ul li{
+    display: inline-block;
+    float: left;
+   
+}
+.Modelos{
+    background-color: rgb(161, 161, 161);
+    width: 100%;
+    height: 725px;
+    top: 40px;
+    margin: 0 auto;
+    position: relative;
+    clear:both;
+}
+
+.c-MODELOS{
+    top: 10px;
+    position: relative;
+}
+.img2{
+    padding-left: 50px;
+    width: 30%;
+    float: left;
+}
+.p1{
+    font-size: 100px;
+    float: center;
+}
+.divi{
+    top: 30px;
+    height: 150px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(179, 85, 23);
+}
+.videos{
+    background-color: rgb(161, 161, 161);
+    width: 100%;
+    height: 400px;
+    top: 150px;
+    margin: 0 auto;
+    position: relative;
+    clear:both;
+}
+.videos-t ul li{
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 180px;
+    bottom: 10px;
+    padding-top: 100px;
+    
+    
+}
+.c-VIDEOS{
+    top: 20px;
+    clear:both;
+    right: 0px;
+    margin: 0 auto;
+    position: relative;
+}
+.FIM{
+    top: 100px;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(179, 85, 23);
+}
+.direita{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+@media screen and (max-width: 1444px) {
+    .carros ul li{
+        display: inline-block;
+        float: left;
+        margin-left: 5px;
+        padding-left: 20px;
+    }
+    }
+
+    @media screen and (max-width: 1349px) {
+        
+        
+        .videos-t ul li{
+            margin: 0 auto;
+            display: inline-block;
+            float: left;
+            padding-left: 100px;
+            padding-top: 100px;
+            
+        }
+        .Vendas{
+            padding-top: 50px;
+            width: 60%;
+            height: 300px;
+            top: 20px;
+            margin: 0 auto;
+            position: relative;
+            clear:both;
+        }
+        }
+        @media screen and (max-width: 1112px) {
+            .videos-t ul li{
+                margin: 0 auto;
+                display: inline-block;
+                float: left;
+                padding-left: 30px;
+                padding-top: 100px;
+                
+            }
+            .divi{
+                top: 30px;
+                height: 150px;
+                width: 70%;
+                margin: 0 auto;
+                position: relative;
+                background-color: rgb(179, 85, 23);
+            }
+            .img2{
+                padding-right: 100px;
+                width: 30%;
+                float: left;
+            }
+            }
+         
+            @media screen and (max-width: 1100px) {
+            
+                .perfil{
+                    padding-top: 50px;
+                    background-color: rgb(161, 161, 161);
+                   width: 700px;
+                   height: 300px;
+                top: 20px;
+                    position: relative;
+                    margin: 0 auto;
+                   
+                }
+                .img{
+                    padding-left: 20px;
+                    width: 30%;
+                    float: left;  
+                }
+                .nome{
+                    font-size: 7px;
+                    float: center;
+                    width: 70%;
+                    height: 55%;
+                    left: 100px;
+                    position: relative;
+                    
+                }
+                .socias ul li{
+                    display: inline-block;
+                    float: left;
+                    position: relative;
+                    left: 100px;
+                   
+                }
+                .redes{
+                    padding-left: 25px;
+                    font-size: 10px;
+                    position: relative;
+                    left:100px;
+                }
+                .divi{
+                    top: 30px;
+                    height: 150px;
+                    width: 70%;
+                    margin: 0 auto;
+                    position: relative;
+                    background-color: rgb(179, 85, 23);
+                }
+              
+            }
+            @media screen and (max-width: 960px) {
+               
+                .perfil{
+                    padding-top: 50px;
+                    background-color: rgb(161, 161, 161);
+                   width: 600px;
+                   height: 300px;
+                top: 20px;
+                    position: relative;
+                    margin: 0 auto;
+                   
+                }
+                
+                .busca input{
+                    height: 15px;
+                    margin-top: 15px;
+                    padding: 5px;
+                    width: 100px;
+                    background-position: 96%;
+                    background-image: url('./imgs/img-pes.png');
+                    background-repeat: no-repeat;
+                    background-size: 20px;
+                }
+                p{
+                    font-size: 10px;
+                }
+                .videos{
+                    background-color: rgb(161, 161, 161);
+                    width: 100%;
+                    height: 900px;
+                    top: 150px;
+                    margin: 0 auto;
+                    position: relative;
+                    clear:both;
+                }
+                .videos-t ul li{
+                    margin: 0 auto;
+                    position: relative;
+                    
+                    float: left;
+                    margin-left: 150px;
+                    bottom: 10px;
+                    padding-top: 100px;
+                    
+                    
+                }
+            
+        }
+        @media screen and (max-width: 830px) {
+            .perfil{
+                padding-top: 50px;
+                background-color: rgb(161, 161, 161);
+               width: 500px;
+               height: 500px;
+            top: 20px;
+                position: relative;
+                margin: 0 auto;
+               
+            }
+            .redes{
+                padding-left: 25px;
+                font-size: 10px;
+                position: relative;
+                left:70px;
+                top:70px;
+            }
+            .img{
+                padding-left: 100px;
+                width: 100%;
+                float: left;  
+            }
+            .nome{
+                font-size: 7px;
+                float: center;
+                width: 70%;
+                height: 55%;
+                left: 50px;
+                position: relative;
+                
+            }
+            .socias ul li{
+                display: inline-block;
+                float: left;
+                position: relative;
+                top: 70px;
+                left: 100px;
+            }
+            .Modelos{
+                background-color: rgb(161, 161, 161);
+                width: 100%;
+                height: 1400px;
+                top: 40px;
+                margin: 0 auto;
+                position: relative;
+                clear:both;
+            }
+            
+            .divi{
+                top: 30px;
+                height: 300px;
+                width: 50%;
+                margin: 0 auto;
+                position: relative;
+                background-color: rgb(179, 85, 23);
+            }
+            .img2{
+                right: 50px;
+                position: relative;
+                width: 100%;
+                float: left;
+            }
+            .strings ul li a{
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                font-size: 12px;
+            }
+            .strings ul li{
+                display: inline-block;
+                color: rgb(0, 0, 0);
+                margin-left: 5px;
+            }
+        }
+
+        @media screen and (max-width: 730px) {
+            
+            .perfil{
+                padding-top: 50px;
+                background-color: rgb(161, 161, 161);
+               width: 300px;
+               height: 500px;
+            top: 20px;
+                position: relative;
+                margin: 0 auto;
+               
+            }
+            .redes{
+                padding-left: 25px;
+                font-size: 10px;
+                position: relative;
+                left:70px;
+                top:70px;
+            }
+            .img{
+                padding-left: 20px;
+                width: 100%;
+                float: left;  
+            }
+            .nome{
+                font-size: 7px;
+                float: center;
+                width: 70%;
+                height: 55%;
+                left: 50px;
+                position: relative;
+                
+            }
+            .socias ul li{
+                display: inline-block;
+                float: left;
+                position: relative;
+                top: 70px;
+                left: 100px;
+            }
+            .Modelos{
+                background-color: rgb(161, 161, 161);
+                width: 100%;
+                height: 1400px;
+                top: 40px;
+                margin: 0 auto;
+                position: relative;
+                clear:both;
+            }
+            
+            .divi{
+                top: 30px;
+                height: 300px;
+                width: 50%;
+                margin: 0 auto;
+                position: relative;
+                background-color: rgb(179, 85, 23);
+            }
+            .img2{
+                right: 50px;
+                position: relative;
+                width: 100%;
+                float: left;
+            }
+            .strings ul li a{
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                font-size: 12px;
+            }
+            .strings ul li{
+                display: inline-block;
+                color: rgb(0, 0, 0);
+                margin-left: 5px;    
+            }
+           
+        }
